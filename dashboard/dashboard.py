@@ -5,7 +5,7 @@ import seaborn as sns
 import numpy as np
 
 # Load dataset dari file yang telah diunggah
-data = pd.read_csv("/mnt/data/PRSA_Data_Huairou_20130301-20170228.csv")
+data = pd.read_csv(r"C:\Users\MY HP\Documents\air-quality\dashboard\PRSA_Data_Huairou_20130301-20170228.csv")
 
 # Deskripsi
 st.write('Dasboard ini menyediakan cara interaktif untuk menjelajahi data kualitas udara, khususnya berfokus pada tingkat PM10 dan hubungannya dengan berbagai kondisi cuaca.')
@@ -50,7 +50,7 @@ st.pyplot(fig)
 st.subheader('Analisis Pola Musiman')
 seasonal_trends = data.groupby('month')['PM10'].mean()
 fig, ax = plt.subplots()
-seasonal_trends.plot(kind='bar', color='purple', ax=ax)
+seasonal_trends.plot(kind='bar', color='blue', ax=ax)
 plt.title('Rata-rata Tingkat PM10 Bulanan')
 plt.xlabel('Bulan')
 plt.ylabel('Rata-rata PM10')
