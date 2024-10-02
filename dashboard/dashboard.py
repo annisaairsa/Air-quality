@@ -19,8 +19,8 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Memuat data dari file lokal
-data = pd.read_csv("https://raw.githubusercontent.com/annisaairsa/air-quality/refs/heads/main/dashboard/PRSA_Data_Huairou_20130301-20170228.csv")  # Ganti dengan path yang sesuai
+# Memuat dataset
+data = pd.read_csv("https://raw.githubusercontent.com/annisaairsa/air-quality/refs/heads/main/dashboard/PRSA_Data_Huairou_20130301-20170228.csv")
 
 # Menambahkan gambar ikonik Huairou di bagian atas sidebar
 st.sidebar.image("https://mediaim.expedia.com/destination/1/339748b6d2ac7e127e541e8e8d51a634.jpg", caption="Ikonik Huairou", use_column_width=True)
