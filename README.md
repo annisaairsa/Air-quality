@@ -25,7 +25,7 @@ pip install pandas numpy scipy matplotlib seaborn streamlit statsmodels
 ```
 streamlit run dashboard.py
 ```
-**Penggunaan**
+# Penggunaan
 1. Masuk ke direktori proyek (local):
  ```shell
     cd air-quality/dashboard/
