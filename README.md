@@ -10,9 +10,27 @@ Proyek ini menyajikan dashboard analisis data kualitas udara, dengan fokus pada 
 - **notebook.ipynb**: File ini yang digunakan untuk melakukan analisis data.
 - **READ.md**: Ini adalah file dokumentasi.
 
+# Installasi
+1. Membuat dan Mengaktifkan Python Environment:
+```
+conda create --name airquality-ds python=3.9
+conda activate airquality-ds
+```
+2. Install Paket yang Diperlukan:
+```
+pip install pandas numpy scipy matplotlib seaborn streamlit statsmodels
+```
+
 # Run Streamlit App
 ```
 streamlit run dashboard.py
 ```
+**Penggunaan**
+1. Masuk ke direktori proyek (local):
+ ```shell
+    cd air-quality/dashboard/
+    streamlit run dashboard.py
+    ```
+
 **Kunjungi Link Berikut**
 (https://air-quality-annisaairsa.streamlit.app/)
