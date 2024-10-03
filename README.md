@@ -19,6 +19,7 @@ conda activate airquality-ds
 ```
 pip install pandas numpy scipy matplotlib seaborn streamlit statsmodels
 ```
+3. Navigasikan ke Direktori Project di mana dashboard.py berada
 
 # Run Streamlit App
 ```
