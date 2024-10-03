@@ -13,7 +13,7 @@ Proyek ini menyajikan dashboard analisis data kualitas udara, dengan fokus pada 
 # Installasi
 1. Membuat dan Mengaktifkan Python Environment:
 ```
-conda create --name airquality-ds python=3.9
+conda create --name airquality-ds python=3.12
 conda activate airquality-ds
 ```
 2. Install Paket yang Diperlukan:
