@@ -1,5 +1,4 @@
-# Submission "Belajar Analisis Data dengan Python" Dicoding
-
+# Submission Dicoding "Belajar Analisis Data dengan Python"
 # Deskripsi Project
 
 Proyek ini menyajikan dashboard analisis data kualitas udara, dengan fokus pada tingkat PM10 di daerah Huairou. Tujuannya adalah untuk mengidentifikasi pola, variasi musiman, serta pengaruh kondisi cuaca terhadap kualitas udara. Wawasan dari analisis ini dapat bermanfaat bagi penelitian lingkungan, pemantauan kesehatan masyarakat, serta mendukung pengambilan keputusan terkait kebijakan lingkungan dan mitigasi polusi.
